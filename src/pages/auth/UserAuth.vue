@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <v-sheet class="mx-auto mt-4" width="300">
+    <v-sheet class="mx-auto mt-4" width="400">
+      <h1 class="text-center">Gym Tracker App</h1>
       <v-form @submit.prevent="submitForm">
         <v-text-field v-model.trim="username" label="Username"></v-text-field>
         <v-text-field
